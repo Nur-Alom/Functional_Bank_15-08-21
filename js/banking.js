@@ -43,6 +43,8 @@ function updateBalance(depositAmount, isAdd) {
 
 
 
+
+
 document.getElementById('deposit-btn').addEventListener('click', function () {
     // const depositInput = document.getElementById('deposit');
     // const depositAmountText = depositInput.value;
@@ -57,7 +59,6 @@ document.getElementById('deposit-btn').addEventListener('click', function () {
 
 
     // update balance.
-
     // const balanceTotal = document.getElementById('total-balance');
     // const balanceTotalText = balanceTotal.innerText;
     // const previousBalanceTotal = parseFloat(balanceTotalText);
@@ -76,10 +77,6 @@ document.getElementById('withdraw-btn').addEventListener('click', function () {
     // const withdrawInput = document.getElementById('withdraw');
     // const withdrawAmountText = withdrawInput.value;
     // const withdrawAmount = parseFloat(withdrawAmountText);
-
-
-
-
 
     // update withdraw total.
 
